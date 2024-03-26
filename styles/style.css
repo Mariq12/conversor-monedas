@@ -1,0 +1,140 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://img.freepik.com/vector-gratis/fondo-conexion-red-degradado_23-2148879890.jpg?size=626&ext=jpg&uid=R122152698&ga=GA1.1.1514426708.1710877512");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0; /* Eliminar margen predeterminado del cuerpo */
+}
+
+.container {
+  text-align: center;
+  padding: 15px 0 0 0;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* Estilos para la imagen de fondo */
+.conversion-form {
+  background-image: url('https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Convers%C3%A3o+1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+
+}
+
+/* Estilos para el formulario */
+.conversion-form form {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 15px 0 10px 40px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left; /* Alinear etiquetas a la izquierda */
+}
+
+.result-container {
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#resultadoConversion {
+	font-size:17px;
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 10px;
+	padding: 5px;
+	font-weight: bold;
+	max-width: 500px; /* Establecer un ancho máximo para el formulario */
+    margin: 0 auto; /* Centrar el formulario horizontalmente */
+	color: #18b304;
+}
+
+img {
+  max-height: 250px;
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+
+/* Estilos para etiquetas y select */
+label {
+  color: #090979;
+  font-weight: bold; /* Texto en negrita */
+  margin-right: 20px; /* Espaciado a la derecha */
+  font-size: 16px;
+  margin-bottom: 70px; /* Agregar margen inferior para separación */
+}
+
+input,
+select {
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  margin-bottom: 15px; /* Agregar margen inferior para separación */
+}
+
+select {
+  padding: 5px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  border: 1px solid blue; 
+  background-color: transparent; /* Fondo transparente */
+  color: black; /* Color blanco para el texto */
+  font-size: 14px; /* Tamaño de fuente */
+}
+
+select:focus {
+  outline: none; /* Eliminar el contorno al enfocar */
+}
+
+/* Estilos para botones */
+button {
+  padding: 7px 20px; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  background-color: #4CAF50; /* Color de fondo verde */
+  color: #ffffff; /* Color de texto blanco */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambiar cursor al pasar */
+  margin: 0 auto; /* Centrar horizontalmente */
+  display: block; /* Convertir a bloque para aplicar margen automático */
+}
+
+button:hover {
+  background-color: #45a049; /* Cambiar color de fondo al pasar */
+}
+
+footer {
+  text-align: center;
+  font-family: sans-serif;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  margin-left: 0; /* Eliminar el margen izquierdo */
+  padding-left: 0; /* Eliminar el relleno izquierdo */
+}
+
+footer p {
+  margin: 0;
+  padding: 20px 0;
+  background-color: black;
+  color: #fff;
+  height: 30px;
+}
